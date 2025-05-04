@@ -4,12 +4,12 @@ To prosty projekt webowy, którego celem jest wyświetlenie strony internetowej 
 ## Instrukcja instalacji
 Do uruchomienia projektu potrzebny jest tylko Python (wersja 3 lub nowsza) oraz dowolna przeglądarka internetowa.
 1. Najpierw klonuję repozytorium lub pobieram je jako archiwum ZIP:
-''' git clone https://github.com/moj-login-github/hello-world-web.git
-cd hello-world-web '''
+```git clone https://github.com/moj-login-github/hello-world-web.git```
+```cd hello-world-web```
 2. Upewniam się, że w folderze znajduje się plik index.html.
 ## Przykład użycia – jak uruchomić serwer webowy
 Aby wyświetlić stronę lokalnie, uruchamiam prosty serwer HTTP wbudowany w Pythona:
-''' python -m http.server 8000 '''
+```python -m http.server 8000```
 Następnie wchodzę w przeglądarce na adres:
-''' http://localhost:8000 '''
+```http://localhost:8000```
 Powinna pojawić się strona z napisem "Hello, World!".
